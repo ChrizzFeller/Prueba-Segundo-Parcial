@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+
+body{
+	font-family: Segoe UI, "Helvetica Neue";
+	font-size: 14px;
+	color: #666;
+}
+header{
+	background-color: rgba(29,14,0,0.7) !important;
+}
+footer{
+	background-color: #432A1C;
+	padding: 25px 0;
+	border-top: 4px solid #432a1c;
+	color: #fff;
+	text-align: center;
+}
+footer img {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.titulos {
+    color: #381305;
+    font-weight: 300;
+    text-align: center;
+    padding: 40px;
+}
+.titulos span{
+    color: #c38346	;
+    font-weight: 500;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:50%;
+    height:10%;
+}
+
+.absolute-div {
+    position: absolute;
+      top: 0;
+      left: 330px;
+      right: 0;
+      bottom: 320px;
+}
+
+.carousel-caption h2 {
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+	background-color: rgba(0,0,0,0.70);
+	font-weight: 300;
+	
+}
+
+.carousel-caption h2 span {
+	font-weight: 700;
+}
+
+.item {
+    position:relative;
+}
+
+
+#our_specialty{
+    background-color: #432a1c;
+    padding: 30px 10px;
+    border-color: #C38346;
+}
+
+.imagen1 {
+	
+}
+
+.inf_specialty h3{
+    font-family: Roboto;
+    color: #fff;
+    font-weight: 300;
+}
+.inf_specialty h3 span{
+    font-weight: 400;
+    color: #C38346;
+}
+.inf_specialty p{
+    color: #fff;
+    padding: 0px 0px;
+	margin-left: 0;
+}
+.details-btn{
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #C38346;
+    
+}
+.roast{
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 50px;
+}
